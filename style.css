@@ -1,43 +1,99 @@
-@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  background: url("images/food.jpg");
+  background: url("images/icecream2.jpg");
   background-position: unset;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.icon-right {
+
+.left{
+  /* border: 2px solid purple; */
+  color: white;
   display: inline-block;
+  padding: 10px;
+  top: 8px;
+  left:8px;
   position: absolute;
-  top: 10px;
-  right: 23px;
-  border: 3px solid black;
+  font-family: 'Bona Nova', serif;
 }
-.icon-right img {
-  text-align: center;
-  width: 107px;
-}
-.slogan {
-  text-align: center;
-  font-family: 'Yellowtail', cursive;
-  font-size: 28px;
-  font-weight: bold;
-}
-.container {
-  border: 2px solid black;
-  display: inline-block;
+.credits{
+  text-decoration: underline;
 }
 
-.menu {
-  border: 2px solid purple;
+.box{
   display: inline-block;
+  /* border: 2px solid green; */
+  color: white;
   position: absolute;
-  width: 123px;
-  margin: 255px 612px;
-  padding: 13px;
+  background: rgb(31, 24, 24, 0.9);
+  top: 150px;
+  padding: 50px;
+  font-size: 14px;
+  font-weight:bolder;
   text-align: center;
+  width: 85px;
+  height: 95px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+img{
+  width: 50px;
+  filter: invert(100%);
+}
+#menu1{
+  position: absolute;
+  display: inline-block;
+  left: 60px;
+}
+
+
+#menu2{
+  position: absolute;
+  display: inline-block;
+  left: 269px;
+}
+#menu3{
+  position: absolute;
+  display: inline-block;
+  left: 478px;
+}
+#menu4{
+  position: absolute;
+  display: inline-block;
+  left: 687px;
+}
+#menu5{
+  position: absolute;
+  display: inline-block;
+  left: 896px;
+}
+#menu6{
+  position: absolute;
+  display: inline-block;
+  left: 1105px; 
+}
+
+.box:hover
+{
+  cursor: pointer;
+  transform: scale(1.1) ;
+}
+
+.footer
+{
+  position: absolute;
+  display: block;
+  /* border: 2px solid green; */
+  bottom: 0px;
+  color: white;
+  background: rgb(31, 24, 24, 0.9);
+  width: 97.99%;
+  padding: 12px;
+  text-align: center;
+  font-family: 'Bona Nova', serif;
 }
